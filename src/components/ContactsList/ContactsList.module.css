@@ -1,0 +1,23 @@
+.list {
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.button {
+    width: 80px;
+    height: 20px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(218, 93, 93);
+    border: none;
+    color: white;
+}

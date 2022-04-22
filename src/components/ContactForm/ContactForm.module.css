@@ -1,0 +1,31 @@
+.form {
+    width: 250px;
+    padding: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.formInput {
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+.formButton {
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(218, 93, 93);
+    border: none;
+    color: white;
+  }
